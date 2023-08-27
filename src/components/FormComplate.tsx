@@ -76,7 +76,7 @@ export function FormComplate() {
             value={phoneNumber}
             onChange={(e) => {
               const newValue = e.target.value;
-              if (newValue.length > 7 || !/^\d*$/.test(newValue)) {
+              if (newValue.length > 9 || !/^\d*$/.test(newValue)) {
                 return;
               }
               setPhoneNumber(e.target.value);

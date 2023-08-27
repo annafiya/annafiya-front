@@ -26,7 +26,7 @@ export function About() {
         <div className="about-content">
           <p className="about-title">Компаниямиз ҳақида</p>
           <p className="about-text">
-            Биз сиз учун qayg'uramiz.Sog'lig'ingiz ҳақида қайғуриш бизнинг
+            Биз сиз учун қайғурамиз .Соғлиғингиз ҳақида қайғуриш бизнинг
             вазифамиз.
           </p>
         </div>

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Carousel, Container } from "react-bootstrap";
 
 interface certificate {
@@ -19,7 +19,7 @@ export const CertificateCarusel: React.FC<CaruselComponentProps> = ({
           certificates.map((certificate) => (
             <Carousel.Item key={certificate.id}>
               <div className="certificate-carusel-item-box">
-                <img
+                <img alt="certificate"
                   className="certificate-carusel-img"
                   src={certificate.path}
                 />

@@ -1,4 +1,4 @@
-import { useState } from "react";
+
 import { Navbar as NavbarBs, Container, Nav } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import "../App.css";
@@ -14,7 +14,7 @@ export function Navbar() {
         <Container>
           <Nav className="navbar">
             <Nav.Link to="/" as={NavLink}>
-              <img src="imgs/an-nafia.png" className="nav-logo" />
+              <img alt="img" src="imgs/an-nafia.png" className="nav-logo" />
             </Nav.Link>
             <Nav.Link to="/" as={NavLink} className="nav-home">
               <p className="text nav-text">Асосий</p>

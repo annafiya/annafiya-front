@@ -15,7 +15,7 @@ export function ShortInfo() {
           </Nav.Link>
         </div>
         <div>
-          <img src="./imgs/an-nafia.png" className="short-info-img" />
+          <img alt="img" src="./imgs/an-nafia.png" className="short-info-img" />
         </div>
       </div>
     </>

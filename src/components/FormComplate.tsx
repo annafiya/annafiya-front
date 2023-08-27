@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Form, Button } from "react-bootstrap";
+import { Form } from "react-bootstrap";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css"; // Import the CSS
 import "../App.css";
@@ -109,10 +109,10 @@ export function FormComplate() {
             href="https://instagram.com/medical_informeyshin"
             className="follow-us-icons"
           >
-            <img src="./imgs/instagram.svg" className="follow-us-icon-img" />
+            <img  alt="img" src="./imgs/instagram.svg" className="follow-us-icon-img" />
           </a>
           <a href="https://t.me/AnNafiya" className="follow-us-icons">
-            <img src="./imgs/telegram.svg" className="follow-us-icon-img" />
+            <img alt="img"  src="./imgs/telegram.svg" className="follow-us-icon-img" />
           </a>
         </div>
       </div> */}

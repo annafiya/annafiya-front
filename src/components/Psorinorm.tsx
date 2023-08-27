@@ -11,14 +11,14 @@ export function Psorinorm() {
             салбий оқибатларга олиб келувчи псариаз касаллиги менда борлигини
             пайқаб қолдим.
           </p>
-          <img className="psorinorm-img" src="imgs/psorinorm1.jpg" />
+          <img alt="img" className="psorinorm-img" src="imgs/psorinorm1.jpg" />
         </div>
         <div className="psorinorm-content-item">
           <p className="psorinorm-text">
             Вақт ўтиб у йўқолип кетади деган фикрда эдим бироқ бу тобора
             ҳаётимга чуқурроқ ўрнаша бошлади.
           </p>
-          <img className="psorinorm-img" src="imgs/psorinorm2.jpg" />
+          <img alt="img" className="psorinorm-img" src="imgs/psorinorm2.jpg" />
         </div>
         <div className="psorinorm-content-item">
           <p className="psorinorm-text">
@@ -27,7 +27,7 @@ export function Psorinorm() {
             тобора авж олишни бошлади ва мен бу ҳолатдан чуқур стрессга тушиб
             қолдим.
           </p>
-          <img className="psorinorm-img" src="imgs/psorinorm3.jpg" />
+          <img alt="img" className="psorinorm-img" src="imgs/psorinorm3.jpg" />
         </div>
         <div className="psorinorm-content-item">
           <p className="psorinorm-text">
@@ -35,7 +35,7 @@ export function Psorinorm() {
             juftu halolim bu holattan chochib ketishdi va ular bilan meni oramda
             masofa paydo boldi
           </p>
-          <img className="psorinorm-img" src="imgs/psorinorm4.jpg" />
+          <img alt="img" className="psorinorm-img" src="imgs/psorinorm4.jpg" />
         </div>
         <div className="psorinorm-content-item">
           <p className="psorinorm-text">
@@ -45,14 +45,14 @@ export function Psorinorm() {
             қилди турли хил усуллардан фойдалана бошладим лекин буларнинг
             бирортаси фойда бермас эди.
           </p>
-          <img className="psorinorm-img" src="imgs/psorinorm5.jpg" />
+          <img alt="img" className="psorinorm-img" src="imgs/psorinorm5.jpg" />
         </div>
         <div className="psorinorm-content-item">
           <p className="psorinorm-text">
             Ҳар қандай malham.har қандай дорилар бесамар эди лекин бир куни
             менга самимий бўлган инсоним ҳаётимга бир тубдан ўзгариш олиб келди!
           </p>
-          <img className="psorinorm-img" src="imgs/psorinormproductimg.jpg" />
+          <img alt="img" className="psorinorm-img" src="imgs/psorinormproductimg.jpg" />
         </div>
         <div className="psorinorm-content-item">
           <p className="psorinorm-text">
@@ -66,7 +66,7 @@ export function Psorinorm() {
             сақланб қолган ана шу маҳсулотни қабул қилишни аввалги кунларидаёқ
             натижасини пайқадим ва бу маҳсулот Псорионорм эди
           </p>
-          <img className="psorinorm-img" src="imgs/psorinorm6.jpg" />
+          <img alt="img" className="psorinorm-img" src="imgs/psorinorm6.jpg" />
         </div>
         <div className="psorinorm-content-item">
           <p className="psorinorm-text">

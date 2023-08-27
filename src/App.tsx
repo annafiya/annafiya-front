@@ -4,12 +4,9 @@ import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 import { Products } from "./pages/Products";
 import { Navbar } from "./components/Navbar";
-import { ShoppingCartProvider } from "./context/ShoppingCartContext";
-import { ContactWithMap } from "./components/ContactWithMap";
 import { Footer } from "./components/Footer";
 import { ProductDetail } from "./components/ProductDetail";
 import { NavModal } from "./components/NavModal";
-import { Psorinorm } from "./components/Psorinorm";
 
 function App() {
   return (

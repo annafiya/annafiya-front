@@ -5,11 +5,10 @@ import "./NavModal.css";
 export function NavModal() {
   const [isNavVisible, setIsNavVisible] = useState(false);
 
-  function closeModal() {}
   return (
     <>
       <div className="nav-modal-box">
-        <img
+        <img alt="img"
           src="imgs/menu1.png"
           className="menu-icon"
           width={40}
@@ -21,7 +20,7 @@ export function NavModal() {
         {isNavVisible && (
           <ul className={`nav-modal-links`}>
             <li>
-              <img
+              <img alt="img"
                 src="imgs/close.png"
                 width={40}
                 height={40}

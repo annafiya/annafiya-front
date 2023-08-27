@@ -18,7 +18,7 @@ export const Product: React.FC<ProductProps> = ({ products }) => {
           <Link to={`/products/${item.id}`} style={{textDecoration:"none" ,color:"#fff"}}>
             <div key={item.id} className="product-box">
               <div className="product-img-box">
-                <img src={item.path} className="product-img" />
+                <img alt="img" src={item.path} className="product-img" />
               </div>
               <div className="product-content-box">
                 <p className="product-content-title">{item.title}</p>

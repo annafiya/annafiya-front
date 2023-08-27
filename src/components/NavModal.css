@@ -1,0 +1,58 @@
+.nav-modal-box{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .nav-modal-box {
+        display: block;
+        position: relative;
+        width: 100%;
+      }
+    
+      .menu-icon {
+        display: block;
+        position: fixed;
+        top: 42px;
+        right: 30px;
+        font-size: 24px;
+        cursor: pointer;
+        z-index: 2000
+      }
+    
+      /* Navbar.css */
+    
+      .close-nav-modal-btn{
+        display: block;
+        margin-left: auto;
+        position: absolute;
+        right: 20px;
+        top: 43px;
+      }
+     
+      .nav-modal-links {
+        list-style: none;
+        position: fixed;
+        top:0;
+        z-index: 2000;
+        background-color:#161819;
+        width:80%;
+        height: 100%;
+        padding: 20px;
+    
+      }
+    
+      .nav-modal-links.visible {
+        display: block;
+      }
+    
+      .nav-modal-links li {
+        margin: 20px 0;
+      }
+    
+      .nav-modal-links a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+      }
+    /* ----------------------------------------- */
+    
+}

@@ -1,0 +1,47 @@
+.follow-us {
+    position: fixed;
+    display: block;
+    border-radius:50px;
+    width: 600px;
+    padding: 50px;
+    background-color: #fff;
+    color: black;
+    z-index: 2003;
+}
+.follow-us-title{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 40px;
+    font-weight: 500;
+}
+.follow-us-icon-box{
+    width: 200px;
+    margin: auto;
+}
+.follow-us-icons {
+    margin-right: 50px;
+}
+
+.follow-us-icon-img {
+    width: 50px;
+    height: 50px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .follow-us {
+        background-color: #fff;
+        color: black;
+    }
+
+    .follow-us-icons {
+        margin-right: 15px;
+    }
+
+    .follow-us-icon-img {
+        width: 25px;
+        height: 25px;
+
+    }
+
+}

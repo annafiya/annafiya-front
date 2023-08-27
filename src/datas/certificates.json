@@ -1,0 +1,13 @@
+[{
+    "id": 1,
+    "path": "/certificates/certificate1.jpg"
+}, {
+    "id": 2,
+    "path": "/certificates/certificate2.jpg"
+}, {
+    "id": 3,
+    "path": "/certificates/certificate3.jpg"
+}, {
+    "id": 4,
+    "path": "/certificates/certificate4.jpg"
+}]

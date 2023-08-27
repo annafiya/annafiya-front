@@ -1,0 +1,79 @@
+.psorinorm-title {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.psorinorm-content-item {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.psorinorm-text {
+    width: 500px;
+    font-size: 20px;
+
+}
+
+.psorinorm-img {
+    display: block;
+    /* margin: auto; */
+    width: 500px;
+    height: 400px;
+    border-radius: 15px;
+}
+
+.psorinorm-video-container {}
+
+.psorinorm-video {
+    display: block;
+    margin: auto;
+    width: 500px;
+    height: 400px;
+    border-radius: 15px;
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .psorinorm-title {
+        font-size: 25px;
+    }
+
+    .psorinorm-text {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .psorinorm-content-item {
+        display: block;
+        width: 100%;
+    }
+
+    .psorinorm-img {
+
+        display: block;
+        margin: auto;
+        width: 300px;
+        height: 200px;
+    }
+
+    .psorinorm-video-container {
+        width: 100%;
+    }
+
+    .psorinorm-video {
+        display: block;
+        margin: auto;
+        width: 300px;
+        height: 200px;
+    }
+}

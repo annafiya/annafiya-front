@@ -12,6 +12,21 @@
     justify-content: space-around;
 }
 
+.psorinorm-solution-box {
+    margin-top: 50px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+
+.psorinorm-product-name {
+    color: #ef9207;
+}
+
+.psorinorm-ul {
+    width: 400px;
+}
+
 .psorinorm-text {
     width: 500px;
     font-size: 20px;
@@ -36,6 +51,9 @@
     border-radius: 15px;
 
 }
+.batafsil{
+    color:#ef9207;
+}
 
 
 
@@ -56,6 +74,18 @@
     .psorinorm-content-item {
         display: block;
         width: 100%;
+    }
+
+    .psorinorm-content-item ul {
+        text-align: left;
+    }
+
+    .psorinorm-solution-box {
+        display: block;
+    }
+
+    .psorinorm-ul {
+        text-align: left;
     }
 
     .psorinorm-img {

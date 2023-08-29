@@ -181,8 +181,18 @@
 }
 
 .form-complate-title {
+  color: #ef9207;
   text-align: center;
   font-size: 40px;
+  margin-bottom: 25px;
+  font-weight: 500;
+
+}
+
+.form-complate-text {
+  color: #ef9207;
+  text-align: center;
+  font-size: 20px;
   margin-bottom: 25px;
   font-weight: 500;
 
@@ -323,7 +333,7 @@
 }
 
 @media only screen and (max-width: 600px) {
- 
+
 
   .nav-text {
     display: none;
@@ -430,6 +440,11 @@
   .form-complate-title {
     font-size: 25px;
   }
+
+  .form-complate-text {
+    font-size: 16px;
+  }
+
 
   .form-box {
     margin: auto;

@@ -43,7 +43,14 @@ export function FormComplate() {
 
   return (
     <div className="form-complate">
-      <p className="form-complate-title">Биз сиз билан боғланамиз !</p>
+      <p className="form-complate-title">
+        Марказимизнинг малакали дерматалоглари сиз билан боғланиш учун
+        рақамингизни қолдиринг!
+      </p>
+      <p className="form-complate-text">
+        Мутахсисларимизнинг чегирмаларига эга бўлинг!
+      </p>
+      <p className="form-complate-text">Махсулотларимиз сони чегараланган</p>
       <Form onSubmit={handleSubmit} className="form-box">
         <Form.Group controlId="formName" className="name-box">
           <Form.Label className="name-label">Исмингиз :</Form.Label>

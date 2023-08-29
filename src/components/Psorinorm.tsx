@@ -7,7 +7,7 @@ export function Psorinorm() {
 
         <div className="psorinorm-content-item">
           <p className="psorinorm-text">
-            Менинг исмим Шерзод ёшим 25 da.Avvaliga этиборсиз қолдирилган лекин
+            Менинг исмим Шерзод ёшим 25 да. Аввалига этиборсиз қолдирилган лекин
             салбий оқибатларга олиб келувчи псариаз касаллиги менда борлигини
             пайқаб қолдим.
           </p>
@@ -31,9 +31,9 @@ export function Psorinorm() {
         </div>
         <div className="psorinorm-content-item">
           <p className="psorinorm-text">
-            hattoki oila azolarim yaqin dostlarim ahil kollektivim qolaversa
-            juftu halolim bu holattan chochib ketishdi va ular bilan meni oramda
-            masofa paydo boldi
+            Ҳаттоки оила азоларим яқин достларим аҳил коллективим қолаверса
+            жуфту ҳалолим бу ҳолаттан чочиб кетишди ва улар билан мени орамда
+            масофа пайдо болди
           </p>
           <img alt="img" className="psorinorm-img" src="imgs/psorinorm4.jpg" />
         </div>
@@ -49,10 +49,14 @@ export function Psorinorm() {
         </div>
         <div className="psorinorm-content-item">
           <p className="psorinorm-text">
-            Ҳар қандай malham.har қандай дорилар бесамар эди лекин бир куни
-            менга самимий бўлган инсоним ҳаётимга бир тубдан ўзгариш олиб келди!
+            Ҳар қандай малҳам, дорилар бесамар эди лекин бир куни менга самимий
+            бўлган инсоним ҳаётимга бир тубдан ўзгариш олиб келди!
           </p>
-          <img alt="img" className="psorinorm-img" src="imgs/psorinormproductimg.jpg" />
+          <img
+            alt="img"
+            className="psorinorm-img"
+            src="imgs/psorinormown.jpg"
+          />
         </div>
         <div className="psorinorm-content-item">
           <p className="psorinorm-text">
@@ -81,6 +85,88 @@ export function Psorinorm() {
             </video>
           </div>
         </div>
+        <p className="psorinorm-title">
+          Псариаз Псоринорм касаллиги қайси ҳолларда пайдо болади?
+        </p>
+
+        <div className="psorinorm-content-item">
+          <ul className="psorinorm-text">
+            <li>
+              Аввало ирсий касаллик яъни ота она ёки яқин қарндошларда мавжуд
+              бўлса
+            </li>
+            <li>Нотоғри гигеник ҳаёт тарзига йўл қўйилганда,</li>
+            <li>ўткир ёки сурункали чуқур коринишдаги стресс орқали.</li>
+          </ul>
+          <img alt="img" className="psorinorm-img" src="imgs/psorinorm-stress.jpg" />
+        </div>
+        <p className="psorinorm-title">
+          Псариаз касаллиги этиборсиз қолдирилганда қандай оқибатларга олиб
+          келади?
+        </p>
+        <div className="psorinorm-content-item">
+          <ul className="psorinorm-text">
+            <li>
+              Тананинг усти қатламида оқ ва пушти рангда майдончалар пайдо
+              бўлиши
+            </li>
+            <li>Танадаги модда алмашинув тизими бузилиши оқибатида ёрилиш</li>
+            <li>Kўпинча қонаб қичима пайдо бўлиши</li>
+          </ul>
+          <img alt="img" className="psorinorm-img" src="imgs/psorinorm-without-payattention.jpg" />
+        </div>
+        <p className="psorinorm-title">
+          Псариаз касаллигини самарали тарзда қандай даволаса бўлади?
+        </p>
+        <div className="psorinorm-content-item">
+          <ul className="psorinorm-text">
+            <li>Аввало стрессларга чидамлилик бўлиш!</li>
+            <li>Модда алмашинуви ва метаболизм жараёнини жадаллаштириш</li>
+            <li>
+              Ва ҳар қандай дорилардан четланиб организм учун ишончли ва фойдали
+              бўлган табиий биологик фаол қошимчаларни қабул қилиш!
+            </li>
+          </ul>
+          <img
+            alt="img"
+            className="psorinorm-img"
+            src="imgs/psorinormproductimg.jpg"
+          />
+        </div>
+        <div className="psorinorm-solution-box">
+          <ul className="psorinorm-text psorinorm-ul">
+            <p>Ана шу организмга керак бўла оладиган табиий маҳсулотлар </p>
+            <li>Тозаланган солидол </li>
+            <li>Наъматак,лаванда,мойчечак</li>
+            <li>Соф асалари асали</li>
+            <li>Лизоцим ва А витамини.</li>
+          </ul>
+          <ul className="psorinorm-text psorinorm-ul">
+            <p>
+              Қуйидаги барча таркиб ва витаминлар бизнинг маҳсулотда мужассам
+            </p>
+            <li>
+              <span className="psorinorm-product-name">Солидол моддаси </span>-
+              теридаги ёрилган нуқталарни бартараф этади
+            </li>
+            <li>
+              <span className="psorinorm-product-name">Асалари асали </span>-
+              терининг чуқур шикастланган нуқтасини регинирация яни тикланиш
+              жараёнини тезлаштиради
+            </li>
+            <li>
+              <span className="psorinorm-product-name">Лаванда маҳсулоти </span>
+              - танада зарарланиш жараёнидаги тана стрессни тинчлантиради
+            </li>
+            <li>
+              <span className="psorinorm-product-name">
+                Мойчечак экстракти{" "}
+              </span>
+              - ривожланган танада майинликни пайдо қилади
+            </li>
+          </ul>
+        </div>
+        <p className="psorinorm-title batafsil">Батафсил</p>
       </div>
       <div className="psorinorm-content-text"></div>
     </>

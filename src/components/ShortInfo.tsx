@@ -7,8 +7,9 @@ export function ShortInfo() {
         <div className="short-info-left">
           <p className="short-info-title">An-Nafia</p>
           <p className="short-info-text">
-            Биз сиз учун қайғурамиз .Соғлиғингиз ҳақида қайғуриш бизнинг
-            вазифамиз.
+            Ан-Нафиа жамоаси қарийб 2019-2020 йилдан буён ўз оиласига содиқ
+            бўлган азолар билан биргаликда 4 йилдирки сиз азизларга ҳизмат қилиб
+            келмоқда....
           </p>
           <Nav.Link to="/about" as={NavLink}>
             <button className="short-info-btn">Батафсил ...</button>
